@@ -52,32 +52,6 @@ class ChatScreen extends StatelessWidget {
                 ),
               ],
             )),
-        /* Row(
-          children: [
-            Icon(
-              Icons.arrow_back,
-              color: Colors.white,
-            ),
-            CircleAvatar(
-              radius: 20,
-              child: Text("A"),
-            ),
-            Column(
-              children: [Text("Name"), Text("last seen")],
-            ),
-            SizedBox(
-              width: 10,
-            ),
-            Icon(Icons.phone),
-            SizedBox(
-              width: 10,
-            ),
-            Icon(Icons.more),
-            SizedBox(
-              width: 5,
-            ),
-          ],
-        ), */
       ),
       body: Column(
         children: [
@@ -85,22 +59,6 @@ class ChatScreen extends StatelessWidget {
             height: 600,
             width: double.infinity,
             color: Colors.green,
-            /* child: Column(
-              children: [
-                Row(
-                  children: [
-                    Icon(Icons.gif),
-                    TextField(
-                      decoration: InputDecoration(
-                          hintText: 'Message',
-                          hintStyle: TextStyle(color: Colors.black)),
-                    ),
-                    Icon(Icons.attach_file),
-                    Icon(Icons.mic)
-                  ],
-                )
-              ],
-            ), */
           ),
           Container(
             height: 50,
@@ -128,18 +86,6 @@ class ChatScreen extends StatelessWidget {
                 )
               ],
             ),
-            /* child: Row(
-              children: [
-                Icon(Icons.gif),
-                TextField(
-                  decoration: InputDecoration(
-                      hintText: 'Message',
-                      hintStyle: TextStyle(color: Colors.black)),
-                ),
-                Icon(Icons.attach_file),
-                Icon(Icons.mic)
-              ],
-            ), */
           )
         ],
       ),
